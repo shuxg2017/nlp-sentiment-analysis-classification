@@ -4,7 +4,7 @@
 
 ## Introduction
 
-We trained 2 models to classify tweets (**is news** or **not news**): [logistic regression model](https://github.com/shuxg2017/NLP-sentiment-analysis-classification/blob/master/bow_logreg.ipynb) and [lstm model](https://github.com/shuxg2017/NLP-sentiment-analysis-classification/blob/master/embedding%20and%20lstm.ipynb)
+We trained 2 models to classify twitters (**is news** or **not news**): [logistic regression model](https://github.com/shuxg2017/NLP-sentiment-analysis-classification/blob/master/bow_logreg.ipynb) and [lstm model](https://github.com/shuxg2017/NLP-sentiment-analysis-classification/blob/master/embedding%20and%20lstm.ipynb)
 
 **The goal is to visualize the concept space, and give you guys intuition that complex models work in the same way as simple models**
 
@@ -21,7 +21,7 @@ We trained 2 models to classify tweets (**is news** or **not news**): [logistic 
 ## Logistic Regression Model
 
 - preprocess: bag of words encoding
-  - map each tweet to 3001 dimensional vector
+  - map each twitter to 3001 dimensional vector
 - model
   - size: 3002 parameters
   - structure: one dense layer (size = 1)
