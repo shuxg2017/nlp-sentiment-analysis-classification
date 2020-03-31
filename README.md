@@ -45,7 +45,7 @@ We trained 2 models to classify tweets (**is news** or **not news**): [logistic 
 ### Logistic Regression Model
 Each barchart shows the top most significant 21 words out of 3000 words respect to each category (is news or not news).<br>
 **These words will appear in the LSTM model's concept space with meaningful patterns!**
-![most important words](https://github.com/shuxg2017/NLP-sentiment-analysis-classification/blob/master/results/important_words_for_logreg.png)
+![most important words](https://github.com/shuxg2017/NLP-sentiment-analysis-classification/blob/master/results/important_words_logreg.png)
 
 ### LSTM Model
 The yellow points are the most significant words of isNews in the logistic regresson model.<br>
