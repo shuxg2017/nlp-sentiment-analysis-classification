@@ -28,7 +28,7 @@ I trained 2 models to classify twitters (**is news** or **not news**): [logistic
   - activation: sigmoid
   - metrics: F1 score
 - result
-  - **in this project, we do not care about the great performance, but more insights we can draw from the model**
+  - **in this project, I do not care about the great performance, but more insights I can draw from the model**
 
 ## LSTM model
 
@@ -55,4 +55,4 @@ The blue box located at (0, 0) is the least important words which do not contrib
 ![concept space](https://github.com/shuxg2017/NLP-sentiment-analysis-classification/blob/master/results/concept_space.png)
 
 ## Conclusion
-Simple models are very easy to interpret. Complex models learn the dataset in a similar way which just like simple models, but much harder to interpret. See how I did simple model (logistic regression) to more complex model (very small lstm model). Now, we can move on to much complex models.
+Simple models are very easy to interpret. Complex models learn the dataset in a similar way which just like simple models, but much harder to interpret. See how I did simple model (logistic regression) to more complex model (very small lstm model). Now, I can move on to much complex models.
